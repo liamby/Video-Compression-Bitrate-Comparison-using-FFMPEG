@@ -13,8 +13,6 @@ This project investigates the trade-off between different strategies of transcod
 1. Clone this repository
 2. Download the source video file
 3. Run the python script `python video_processing.py`
-4. The script will generate the RD curves for each resolution and bitrate combination and save them as `rd_curves.png`
-5. The script will also output the PSNR values for each video file in a text file `psnr.txt`
 
 ## Methodology
 The python script performs the following steps for each resolution and bitrate combination:
@@ -41,5 +39,5 @@ where MAX is typically 255 for an 8-bit video.
 
 <p align="center">
 </br>
-<img src="1024Kbps%20comparison.png" alt="1024Kbps Comparison" width = "80%" height="50%">
+<img src="1024kbps%20comparison.png" alt="1024Kbps Comparison" width = "80%" height="50%">
 </p>
